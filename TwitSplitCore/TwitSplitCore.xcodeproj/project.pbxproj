@@ -18,7 +18,7 @@
 		CBC4024121FF0FEB002B4A68 /* TwitSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4023D21FF0FEB002B4A68 /* TwitSplit.swift */; };
 		CBC4024221FF0FEB002B4A68 /* TwitResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4023F21FF0FEB002B4A68 /* TwitResult.swift */; };
 		CBC4024321FF0FEB002B4A68 /* TwitSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4024021FF0FEB002B4A68 /* TwitSentence.swift */; };
-		CBC4024621FF110B002B4A68 /* TwitSplitServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4024521FF110B002B4A68 /* TwitSplitServiceTest.swift */; };
+		CBC4024621FF110B002B4A68 /* TwitSplitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4024521FF110B002B4A68 /* TwitSplitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		CBC4023D21FF0FEB002B4A68 /* TwitSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitSplit.swift; sourceTree = "<group>"; };
 		CBC4023F21FF0FEB002B4A68 /* TwitResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitResult.swift; sourceTree = "<group>"; };
 		CBC4024021FF0FEB002B4A68 /* TwitSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitSentence.swift; sourceTree = "<group>"; };
-		CBC4024521FF110B002B4A68 /* TwitSplitServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitSplitServiceTest.swift; sourceTree = "<group>"; };
+		CBC4024521FF110B002B4A68 /* TwitSplitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitSplitTest.swift; sourceTree = "<group>"; };
 		DF51B4AFB82FFF54ADDDB1FD /* Pods-TwitSplitCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitCore.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TwitSplitCore/Pods-TwitSplitCore.debug.xcconfig"; sourceTree = "<group>"; };
 		F701DDF65727E3799DFBF720 /* Pods_TwitSplitCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplitCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC135AD7AD2245D041D7F1E5 /* Pods-TwitSplitCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitCore.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TwitSplitCore/Pods-TwitSplitCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +88,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB983DD92203070B00D819A1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4024521FF110B002B4A68 /* TwitSplitTest.swift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
 		CBC4021821FF0EB6002B4A68 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +130,8 @@
 		CBC4022F21FF0EB6002B4A68 /* TwitSplitCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				CBC4024421FF10D0002B4A68 /* Service */,
+				CB983DD92203070B00D819A1 /* External */,
+				CBC4024421FF10D0002B4A68 /* Source */,
 				CBC4023221FF0EB6002B4A68 /* Info.plist */,
 			);
 			path = TwitSplitCoreTests;
@@ -148,14 +157,13 @@
 			path = External;
 			sourceTree = "<group>";
 		};
-		CBC4024421FF10D0002B4A68 /* Service */ = {
+		CBC4024421FF10D0002B4A68 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				CBC4024521FF110B002B4A68 /* TwitSplitServiceTest.swift */,
 				CB1B92FD2200062C003A0D87 /* TwitSplitValidatorTests.swift */,
 				CB1B92FF2200065B003A0D87 /* TwitSplitProcessorTests.swift */,
 			);
-			path = Service;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC4024621FF110B002B4A68 /* TwitSplitServiceTest.swift in Sources */,
+				CBC4024621FF110B002B4A68 /* TwitSplitTest.swift in Sources */,
 				CB1B92FE2200062C003A0D87 /* TwitSplitValidatorTests.swift in Sources */,
 				CB1B93002200065B003A0D87 /* TwitSplitProcessorTests.swift in Sources */,
 			);

@@ -20,6 +20,5 @@ end
 
 target 'TwitSplitCore' do
 	project 'TwitSplitCore/TwitSplitCore.xcodeproj'
-    
 end
 
