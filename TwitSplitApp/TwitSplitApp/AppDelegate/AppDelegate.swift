@@ -46,20 +46,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate{
     static var appWindows: UIWindow?{
-        //        return window
         guard let _appDelegate = UIApplication.shared.delegate as? AppDelegate, let _window = _appDelegate.window else {return nil};
         return _window
     }
     func initApplication(){
-        //        setupCrashAnalytic()
         initRootView()
     }
     func initRootView(){
-        //        let tabbarController = KTTabbarController()
-        //        let _splashVC = KTSplashVC()
         window = UIWindow(frame: UIScreen.main.bounds)
-        //        window?.rootViewController = _splashVC
-        //        window?.makeKeyAndVisible()
         let mainVC = ZMainVC()
         let navigation = UINavigationController(rootViewController: mainVC)
         window?.rootViewController = navigation
