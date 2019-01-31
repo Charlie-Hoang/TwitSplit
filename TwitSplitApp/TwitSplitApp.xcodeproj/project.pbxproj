@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3C5938321D08729C86EC9396 /* Pods_TwitSplitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18301DB0F37505E8B13EBAB3 /* Pods_TwitSplitApp.framework */; };
+		CB1B59C92202E56000526511 /* ZMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B59C82202E56000526511 /* ZMessage.swift */; };
+		CB1B9307220054F9003A0D87 /* ZMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B9305220054F9003A0D87 /* ZMainVC.swift */; };
+		CB1B9308220054F9003A0D87 /* ZMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1B9306220054F9003A0D87 /* ZMainVC.xib */; };
+		CB1B930D22005D32003A0D87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1B930C22005D32003A0D87 /* Default-568h@2x.png */; };
+		CB1B930F2200612F003A0D87 /* ZTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B930E2200612F003A0D87 /* ZTextView.swift */; };
+		CB1BB647220152960009A641 /* ZMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BB646220152960009A641 /* ZMainViewModel.swift */; };
+		CB1BB64922015F010009A641 /* ZMainDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BB64822015F010009A641 /* ZMainDataSource.swift */; };
+		CB1BB64C220178600009A641 /* ZTwitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BB64A220178600009A641 /* ZTwitCell.swift */; };
+		CB1BB64D220178600009A641 /* ZTwitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BB64B220178600009A641 /* ZTwitCell.xib */; };
 		CBC401F921FF0E5A002B4A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC401F821FF0E5A002B4A68 /* AppDelegate.swift */; };
-		CBC401FB21FF0E5A002B4A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC401FA21FF0E5A002B4A68 /* ViewController.swift */; };
-		CBC401FE21FF0E5A002B4A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC401FC21FF0E5A002B4A68 /* Main.storyboard */; };
 		CBC4020021FF0E5B002B4A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC401FF21FF0E5B002B4A68 /* Assets.xcassets */; };
 		CBC4020321FF0E5B002B4A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC4020121FF0E5B002B4A68 /* LaunchScreen.storyboard */; };
 		CBC4020E21FF0E5B002B4A68 /* TwitSplitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4020D21FF0E5B002B4A68 /* TwitSplitAppTests.swift */; };
@@ -29,11 +36,18 @@
 /* Begin PBXFileReference section */
 		18301DB0F37505E8B13EBAB3 /* Pods_TwitSplitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE0629B3361860BAB0F081F /* Pods-TwitSplitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TwitSplitApp/Pods-TwitSplitApp.release.xcconfig"; sourceTree = "<group>"; };
+		CB1B59C82202E56000526511 /* ZMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMessage.swift; sourceTree = "<group>"; };
+		CB1B9305220054F9003A0D87 /* ZMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainVC.swift; sourceTree = "<group>"; };
+		CB1B9306220054F9003A0D87 /* ZMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMainVC.xib; sourceTree = "<group>"; };
+		CB1B930C22005D32003A0D87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB1B930E2200612F003A0D87 /* ZTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTextView.swift; sourceTree = "<group>"; };
+		CB1BB646220152960009A641 /* ZMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainViewModel.swift; sourceTree = "<group>"; };
+		CB1BB64822015F010009A641 /* ZMainDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainDataSource.swift; sourceTree = "<group>"; };
+		CB1BB64A220178600009A641 /* ZTwitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTwitCell.swift; sourceTree = "<group>"; };
+		CB1BB64B220178600009A641 /* ZTwitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZTwitCell.xib; sourceTree = "<group>"; };
 		CB77FCA4DDC4FB78D28A930A /* Pods-TwitSplitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitApp.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TwitSplitApp/Pods-TwitSplitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CBC401F521FF0E5A002B4A68 /* TwitSplitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitSplitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC401F821FF0E5A002B4A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBC401FA21FF0E5A002B4A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBC401FD21FF0E5A002B4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBC401FF21FF0E5B002B4A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC4020221FF0E5B002B4A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC4020421FF0E5B002B4A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,9 +92,90 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB1B9301220053CC003A0D87 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CB1B930B2200551E003A0D87 /* ViewModel */,
+				CB1B930A22005518003A0D87 /* View */,
+				CB1B930922005508003A0D87 /* Models */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		CB1B9302220053EE003A0D87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBC401FF21FF0E5B002B4A68 /* Assets.xcassets */,
+				CBC4020121FF0E5B002B4A68 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB1B930322005403003A0D87 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CB1B9301220053CC003A0D87 /* MainScreen */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CB1B930422005425003A0D87 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CBC401F821FF0E5A002B4A68 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CB1B930922005508003A0D87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB1B59C82202E56000526511 /* ZMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB1B930A22005518003A0D87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BB64F22017CC60009A641 /* DataSource */,
+				CB1BB64E220178660009A641 /* ViewController */,
+				CB1B930E2200612F003A0D87 /* ZTextView.swift */,
+				CB1BB64A220178600009A641 /* ZTwitCell.swift */,
+				CB1BB64B220178600009A641 /* ZTwitCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB1B930B2200551E003A0D87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BB646220152960009A641 /* ZMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB1BB64E220178660009A641 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB1B9305220054F9003A0D87 /* ZMainVC.swift */,
+				CB1B9306220054F9003A0D87 /* ZMainVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB1BB64F22017CC60009A641 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BB64822015F010009A641 /* ZMainDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		CBC401EC21FF0E5A002B4A68 = {
 			isa = PBXGroup;
 			children = (
+				CB1B930C22005D32003A0D87 /* Default-568h@2x.png */,
 				CBC401F721FF0E5A002B4A68 /* TwitSplitApp */,
 				CBC4020C21FF0E5B002B4A68 /* TwitSplitAppTests */,
 				CBC401F621FF0E5A002B4A68 /* Products */,
@@ -101,12 +196,10 @@
 		CBC401F721FF0E5A002B4A68 /* TwitSplitApp */ = {
 			isa = PBXGroup;
 			children = (
-				CBC401F821FF0E5A002B4A68 /* AppDelegate.swift */,
-				CBC401FA21FF0E5A002B4A68 /* ViewController.swift */,
-				CBC401FC21FF0E5A002B4A68 /* Main.storyboard */,
-				CBC401FF21FF0E5B002B4A68 /* Assets.xcassets */,
-				CBC4020121FF0E5B002B4A68 /* LaunchScreen.storyboard */,
 				CBC4020421FF0E5B002B4A68 /* Info.plist */,
+				CB1B930422005425003A0D87 /* AppDelegate */,
+				CB1B930322005403003A0D87 /* Source */,
+				CB1B9302220053EE003A0D87 /* Resources */,
 			);
 			path = TwitSplitApp;
 			sourceTree = "<group>";
@@ -204,8 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC4020321FF0E5B002B4A68 /* LaunchScreen.storyboard in Resources */,
+				CB1B930D22005D32003A0D87 /* Default-568h@2x.png in Resources */,
 				CBC4020021FF0E5B002B4A68 /* Assets.xcassets in Resources */,
-				CBC401FE21FF0E5A002B4A68 /* Main.storyboard in Resources */,
+				CB1BB64D220178600009A641 /* ZTwitCell.xib in Resources */,
+				CB1B9308220054F9003A0D87 /* ZMainVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +323,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-TwitSplitApp/Pods-TwitSplitApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NextGrowingTextView/NextGrowingTextView.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -236,6 +332,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NextGrowingTextView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -274,7 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC401FB21FF0E5A002B4A68 /* ViewController.swift in Sources */,
+				CB1B59C92202E56000526511 /* ZMessage.swift in Sources */,
+				CB1BB64C220178600009A641 /* ZTwitCell.swift in Sources */,
+				CB1B930F2200612F003A0D87 /* ZTextView.swift in Sources */,
+				CB1BB64922015F010009A641 /* ZMainDataSource.swift in Sources */,
+				CB1B9307220054F9003A0D87 /* ZMainVC.swift in Sources */,
+				CB1BB647220152960009A641 /* ZMainViewModel.swift in Sources */,
 				CBC401F921FF0E5A002B4A68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,14 +400,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CBC401FC21FF0E5A002B4A68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBC401FD21FF0E5A002B4A68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBC4020121FF0E5B002B4A68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

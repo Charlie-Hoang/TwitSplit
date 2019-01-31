@@ -15,10 +15,11 @@ end
 target 'TwitSplitApp' do
 	project 'TwitSplitApp/TwitSplitApp.xcodeproj'
     framework_pods
+    pod 'NextGrowingTextView'
 end
 
 target 'TwitSplitCore' do
 	project 'TwitSplitCore/TwitSplitCore.xcodeproj'
-    framework_pods
+    
 end
 
